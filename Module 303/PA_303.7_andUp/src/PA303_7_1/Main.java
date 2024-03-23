@@ -18,7 +18,7 @@ public class Main {
     /*
     ●	Task 2: Write a program that returns the middle element in an array. Give the following values to the integer array: {13, 5, 7, 68, 2} and produce the following output: 7
      */
-    public static void task2() {
+    public static void task2() {git sta
         System.out.println("\n==============QUESTION 2==============\n");
         //?Hard code the values of the array
         /*
