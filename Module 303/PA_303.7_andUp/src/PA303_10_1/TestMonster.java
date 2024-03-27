@@ -22,6 +22,5 @@ public class TestMonster {
         //System.out.println(m4.attack()); //!^_&^$@+%$* I don't know how to attack!
 
         System.out.println("Cannot make a Monster object because the Monster class is abstract");
-
     }
 }

@@ -2,7 +2,7 @@ package PA303_10_1;
 
 public abstract class Monster {
     //instance variable
-    protected String name;
+    private String name;
 
     //constructor
     public Monster(String name) {
