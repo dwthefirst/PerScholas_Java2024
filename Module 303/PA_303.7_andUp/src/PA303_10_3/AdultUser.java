@@ -5,8 +5,6 @@ public class AdultUser implements Library{
     private String bookType;
 
     //CONSTRUCTORS
-
-
     public AdultUser() {
 
     }
