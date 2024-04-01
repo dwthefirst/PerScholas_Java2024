@@ -7,6 +7,6 @@ public interface Library {
     void requestBook(String bookType);
 
     //final variables - public, final, static
-    //String library = "Phoenix Library";
+    //String LIBRARY = "Phoenix Library";
 
 }

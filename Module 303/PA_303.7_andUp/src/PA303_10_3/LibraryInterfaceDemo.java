@@ -32,6 +32,5 @@ public class LibraryInterfaceDemo {
         System.out.println("Book Type: Fiction");
         adult1.requestBook("Fiction");
 
-
     }
 }

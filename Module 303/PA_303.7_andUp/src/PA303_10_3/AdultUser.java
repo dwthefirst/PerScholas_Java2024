@@ -6,7 +6,6 @@ public class AdultUser implements Library{
 
     //CONSTRUCTORS
     public AdultUser() {
-
     }
 
     public AdultUser(int age) {
