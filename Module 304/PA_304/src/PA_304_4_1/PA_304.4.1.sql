@@ -1,9 +1,11 @@
+-- 1. Display the name, product line, and buy price of all products. The output columns should display as: “Name,” “Product Line,” and “Buy Price.” The output should display the most expensive items first. 
 SELECT productName AS "Name", 
 	productLine AS "Product Line", 
     buyPrice AS "Buy Price"
 FROM classicmodels.products
 ORDER BY buyPrice DESC;
 
+-- 2. Display the first name, last name, and city name of all customers from Germany. The output columns should display as: “First Name,” “Last Name,” and “City.” The output should be sorted by “Last Name” (ascending).
 SELECT 
 	contactFirstName AS "First Name",
     contactLastName AS "Last Name",
