@@ -36,6 +36,24 @@ FROM classicModels.employees
 WHERE officeCode = 1
 ORDER BY lastName;
 
+SELECT lastName AS 'Last Name', firstName AS 'First Name', email AS 'Email', jobTitle AS 'Job Title'
+FROM employees
+WHERE officeCode IN (SELECT officeCode FROM offices WHERE city = 'San Francisco')
+ORDER BY `Last Name`;
+
+CREATE database DreannasDb;
+USE classicModels;
+CREATE TABLE pets (
+	name varchar(255),
+    age int
+);
+INSERT INTO pets (name, age) VALUES ("Fluffy", 2), ("Sir Pounce", 3), ("Spike", 5);
+SELECT * FROM pets WHERE age > 2;
+
+
+
+
+
 -- 6.	Display the name, product line, scale, and vendor of all of the car products – both classic and vintage. The output should display all vintage cars first (sorted alphabetically by name), and all classic cars last (also sorted alphabetically by name). 
 SELECT *
 FROM classicmodels.products
