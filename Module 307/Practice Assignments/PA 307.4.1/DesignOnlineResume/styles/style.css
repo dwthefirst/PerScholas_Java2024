@@ -1,11 +1,18 @@
 * {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(27, 27, 27);
 }
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
+    height: 100vh;
 }
+
+#container1 {
+    margin: 20px;
+}
+
+
 
 #box1 {
     border: solid aqua;
@@ -21,6 +28,14 @@ body {
     font-size: 1.3rem;
 }
 
+.subclassHeader {
+    color: rgb(213, 244, 255);
+}
+
+.greyText {
+    color: rgb(209, 209, 209);
+}
+
 #NameandPic {
     flex: 2;
     border: 1px solid cornflowerblue;
@@ -29,12 +44,20 @@ body {
 #contactInfo {
     flex: 1;
     border: 1px solid coral;
+    text-align: left;
+    size: 2rem;
+}
 
+.tableHeader{
+    margin: 30px;
+    width: 70%;
 }
 
 #resumeImage {
     max-height: 150px;
     float: left;
+    margin: 10px;
+    margin-right: 50px;
 }
 
 .break {
@@ -54,6 +77,7 @@ body {
     flex-flow: column wrap;
     border: solid orange;
     font-size: 1.2rem;
+    padding:10px;
 }
 
 .section2Entry {
@@ -66,19 +90,59 @@ body {
     /* border: solid 1px lightcoral; */
     padding: 5px;
     margin: 5px;
+    margin-left: 30px;
+}
+
+.employmentHeader{
+    background-color: rgb(61, 52, 52);
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sectionHeaderArrow {
+    display: flex;
+    flex: row;
 }
 
 .employmentCompany {
     display:inline;
 }
 
+.fa-solid-square {
+    color: rgb(68, 106, 204);
+    float: left;
+    display: inline;
+    top: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.fa-circle-chevron-right {
+    color: rgb(68, 106, 204);
+}
+
+.fa-solid-education {
+    color: lightgreen;
+}
+
+.section2Header {    
+    font-style: oblique;
+    width:max-content;
+    display: inline;
+}
+
+.bullet {
+    height: 10px;
+}
+
 .date {
     display: inline;
     float: right;
-}
-
-.section2Header {
-    background: rgb(61, 52, 52);
+    vertical-align: text-top;
 }
 
 #education > .section2EntryContainer {
@@ -98,7 +162,7 @@ body {
 .section3Container {
     font-size: 1.4rem;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .skill { 
@@ -159,6 +223,7 @@ body {
 
 
 .section2and3Container {
+    margin: 20px;
     display: flex;
     flex-flow: row;
 }
@@ -194,5 +259,9 @@ body {
 #section3 {
     border: yellow solid;
     flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-items: stretch;
 }
 

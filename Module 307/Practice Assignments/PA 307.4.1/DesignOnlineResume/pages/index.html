@@ -7,39 +7,41 @@
     <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
+    <script src="https://kit.fontawesome.com/d138853a1a.js" crossorigin="anonymous"></script>
+
     <section id="container1">
         <div id="box1">
             <div id="NameandPic">
                 <img id="resumeImage" src="/images/resumeImage.png" alt="">
                 <h2>Dreanna Willars</h2>
-                <h4>Developer</h4>
+                <h4 class="subclassHeader">Software Developer</h4>
             </div>
     
             <div id="contactInfo">
-                <table>
+                <table id="contactTable">
                     <tr>
-                        <th>Name</th>
-                        <td>Dreanna Willars</td>                        
+                        <th class="tableHeader">Name</th>
+                        <td class="greyText">Dreanna Willars</td>                        
                     </tr>
 
                     <tr>
                         <th>Date of Birth</th>
-                        <td>February 17</td>
+                        <td class="greyText">February 17</td>
                     </tr>
 
                     <tr>
                         <th>Address</th>
-                        <td>Phoenix, Arizona</td>
+                        <td class="greyText">Phoenix, Arizona</td>
                     </tr>
 
                     <tr>
                         <th>Phone</th>
-                        <td>520-220-8631</td>
+                        <td class="greyText">520-220-8631</td>
                     </tr>
 
                     <tr>
                         <th>Email</th>
-                        <td>dreannawillars@gmail.com</td>
+                        <td class="greyText">dreannawillars@gmail.com</td>
                     </tr>
                 </table>
             </div>
@@ -48,15 +50,22 @@
     
             <div id="summary">
                 <h4>Who Am I</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo enim consequuntur recusandae asperiores vel consequatur impedit praesentium similique itaque atque libero id, blanditiis sed voluptatem! Mollitia officia ex nemo totam?</p>
+                <p class="grayText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo enim consequuntur recusandae asperiores vel consequatur impedit praesentium similique itaque atque libero id, blanditiis sed voluptatem! Mollitia officia ex nemo totam?</p>
             </div>
     </section>
+
+    <hr>
 
     <div class="section2and3Container">
         <section id="section2">
             <div id="employment" class="section2Entry">
-                <h2>Employment</h2>
+                <div class="sectionHeaderArrow">
+                    <i class="fa-solid fa-square-caret-down fa-xl fa-solid-square"></i>
+                    <h2 class="employmentHeader">Employment</h2>
+                </div>
+                
                 <div class="employmentEntryContainer section2EntryContainer">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
                     <h3 class="employmentCompany section2Header">Peoria Unified School District</h3>
                     <p class="date">2020-2023</p>
                     <h5 class="position">LAN Tech I</h5>
@@ -65,7 +74,8 @@
     
                 <hr>
     
-                <div class="employmentEntryContainer section2EntryContainer">
+                <div class="employmentEntryContainer section2EntryContainer">   
+                    <i class="fa-solid fa-circle-chevron-right"></i>                 
                     <h3 class="employmentCompany section2Header">Peoria Unified School District</h3>
                     <p class="date">2020-2023</p>
                     <h5 class="position">LAN Tech I</h5>
@@ -75,20 +85,26 @@
             </div>
     
             <div id="education" class="section2Entry">
-                <h2>Education</h2>
+                <div class="sectionHeaderArrow">
+                    <i class="fa-solid fa-square-caret-down fa-xl fa-solid-square fa-solid-education"></i>
+                    <h2 class="employmentHeader">Education</h2>
+                </div>
+                
                 <div class="employmentEntryContainer section2EntryContainer">
-                    <h3 class="employmentCompany section2Header">Peoria Unified School District</h3>
-                    <p class="date">2020-2023</p>
-                    <h5 class="position">LAN Tech I</h5>
+                    <i class="fa-solid fa-circle-chevron-right fa-solid-education"></i>    
+                    <h3 class="employmentCompany section2Header">Arizona State University</h3>
+                    <p class="date">2019-2023</p>
+                    <h5 class="position">Applied Computing</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, vel assumenda. Ut aliquam sunt odit distinctio praesentium quibusdam asperiores provident nostrum facilis nesciunt eum in nihil iste aperiam, totam sapiente.</p>
                 </div>
     
                 <hr>
     
                 <div class="employmentEntryContainer section2EntryContainer">
-                    <h3 class="employmentCompany section2Header">Peoria Unified School District</h3>
-                    <p class="date">2020-2023</p>
-                    <h5 class="position">LAN Tech I</h5>
+                    <i class="fa-solid fa-circle-chevron-right fa-solid-education"></i>  
+                    <h3 class="employmentCompany section2Header">Per Scholas</h3>
+                    <p class="date">2024</p>
+                    <h5 class="position">Java Full Stack Developer</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, vel assumenda. Ut aliquam sunt odit distinctio praesentium quibusdam asperiores provident nostrum facilis nesciunt eum in nihil iste aperiam, totam sapiente.</p>
                 </div>
     
