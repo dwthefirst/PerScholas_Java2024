@@ -280,5 +280,10 @@ body {
         flex-flow: column wrap;
         justify-items: stretch;
     }
+    .section3Container {
+        margin: 0px;
+    }
 }
+
+
 
