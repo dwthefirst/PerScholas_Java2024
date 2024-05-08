@@ -165,6 +165,14 @@ body {
     padding: 10px;
 }
 
+#programmingSkillsList {
+    list-style-type: none;
+}
+
+#softskills {
+    padding-left: 0px;
+}
+
 .skill { 
     background-color: rgb(68, 106, 204); 
     color: white; 
@@ -235,6 +243,7 @@ body {
 
 .skillLi {
     display: inline;
+    font-size: 1.5vw;
 }
 
 #circleSkillsContainer {
@@ -263,5 +272,13 @@ body {
     flex-flow: column wrap;
     justify-content: stretch;
     align-items: stretch;
+}
+
+@media (max-width: 900px) {
+    .section2and3Container {
+        display: flex;
+        flex-flow: column wrap;
+        justify-items: stretch;
+    }
 }
 
